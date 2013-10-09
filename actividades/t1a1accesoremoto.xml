@@ -1,0 +1,352 @@
+<chapter>
+	<title>A1: Acceso remoto.</title>
+	<para>Esta práctica constará de los siguientes apartados:
+		<itemizedlist>
+                <listitem>1. Introducción.</listitem>
+                <listitem>2. VNC.</listitem>
+                <listitem>3. Acceso remoto.</listitem>
+                <listitem>4. Terminal server.</listitem>
+                <listitem>5. RemoteApp.</listitem>
+        </itemizedlist>
+	</para>
+	
+	<section>
+		<title>1.Introducción.</title>
+		<para>Para realizar esta práctica vamos a usar los siguientes SS.OO.:
+		<itemizedlist>
+			<listitem>Windows 2008 Server.</listitem>
+			<listitem>Windows 7 (Cliente).</listitem>
+			<listitem>Debian 7 (Servidor).</listitem>
+			<listitem>Debian 7 (Cliente).</listitem>
+			<listitem>Knoppix 7 (Cliente).</listitem>
+			</itemizedlist>
+		</para>
+		<para>Para evitar conflictos se configuran las IPs de las máquinas virtuales como estáticas.</para>
+	</section>
+	<section>
+		<title>2.Escritorio remoto con VNC.</title>
+		<section>
+			<title>Windows.</title>
+			<para>Para realizar la práctica en Windows bastará con instalar VNC en Windows 2008 Server como servidor 
+			y en Windows 7 como cliente siguiendo los sencillos pasos del instalador. Y para conectarse en la máquina 
+			cliente (Windows7) desde VNC se pondrá la IP del equipo a ver (Windows 2008 Server).</para>
+			<figure id="005 CONECTADO AL SERVER">
+				<title>Windows a Windows.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/vnc/005 CONECTADO AL SERVER.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Windows a Windows.</phrase>
+				</textobject>
+				<caption>
+					<para>Windows a Windows.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<figure id="Imagen 4">
+				<title>Windows a Linux.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/vnc/Imagen 4.jpg" format="JPG" align="center" scale="150" />
+				</imageobject>
+				<textobject>
+					<phrase>Windows a Linux.</phrase>
+				</textobject>
+				<caption>
+					<para>Windows a Linux.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+		<section>
+			<title>Linux.</title>
+			<para>En el servidor: instalamos el paquete tightvncserver. Luego iniciamos una sesión gráfica de VNC en el 
+			servidor con "tightvncserver :1 -geometry 800x600 -depth 24". NOTA: si lo creamos con el usuario root después 
+			desde el cliente entrará como root. Para darle de baja hacemos "tightvncserver -kill :1".</para>
+			<para>En el cliente: instalamos el paquete del visor "xtightvncviewer" luego lo ejecutamos con "xtightvncviewer" 
+			y nos pedirá la IP que pondremos seguido de dos puntos y el numero de display. Nos pedirá la contraseña, la insertamos 
+			y listo.</para>
+			<figure id="008 CONECTADO AL SERVIDOR">
+				<title>Linux a Linux.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/vnc/008 CONECTADO AL SERVIDOR.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Linux a Linux.</phrase>
+				</textobject>
+				<caption>
+					<para>Linux a Linux.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<figure id="009 de linux a windows VNC">
+				<title>Linux a Windows.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/vnc/009 de linux a windows VNC.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Linux a Windows.</phrase>
+				</textobject>
+				<caption>
+					<para>Linux a Windows.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+	</section>
+	<section>
+		<title>3. Escritorio Remoto con RDP.</title>
+		<section>
+			<title>Windows.</title>
+			<para>En el servidor activamos el Acceso remoto, Equipo, Propiedades, Acceso remodo, Permitir... Luego en el botón 
+			"Seleccionar usuarios" agregamos los usuarios que queremos que estén disponibles para que tengan acceso remoto.  
+			Aunque en nuestro caso, no pudimos entrar con el usuario "Profesor", pero si con el usuario "Administrador".</para>
+			<figure id="101 win a win">
+				<title>Windows a Windows.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/accre/101 win a win.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Windows a Windows.</phrase>
+				</textobject>
+				<caption>
+					<para>Windows a Windows.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+		<section>
+			<title>Linux.</title>
+			<para>Primero instalamos el paquete avahi-daemon y vino. Para iniciar el servicio primero ejecutamos "vino-preferences" 
+			y habilitamos la compartición del escritorio. Luego podemos iniciar el servicio del vino con "/usr/lib/vino/vino-server". 
+			En el cliente iniciamos vinagre y nos conectamos con el protocolo RDP a nuestro servidor</para>
+			<figure id="102 linux a linux">
+				<title>Linux a Linux.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/accre/102 linux a linux.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Linux a Linux.</phrase>
+				</textobject>
+				<caption>
+					<para>Linux a Linux.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+		<section>
+			<title>Opcional: Linux a Windows.</title>
+			<para>Nos conectamos al servidor windows con vinagre desde nuestro cliente linux.</para>
+			<figure id="103 linux a win RDP">
+				<title>Linux a Windows.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/accre/103 linux a win RDP.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Linux a Windows.</phrase>
+				</textobject>
+				<caption>
+					<para>Linux a Windows.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+	</section>
+	<section>
+		<title>4. Servidor de Terminales.</title>
+		<section>
+			<title>Terminal server.</title>
+			<para>Instalamos el Terminal services:</para>
+			<figure id="200 instalado terminal server">
+				<title>Instalando TS.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/ts/200 instalado terminal server.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Instalando TS.</phrase>
+				</textobject>
+				<caption>
+					<para>Instalando TS.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>Lo configuramos agregándole un equipo cliente para determinar ahí los permisos que tendrá el cliente sobre en servidor. 
+			El cliente WIndows 7 se conectará al servidor con la herramienta de Escritorio Remoto (en las opciones del escritorio remoto 
+			podemos automatizar que abra una aplicación del servidor).</para>
+			<figure id="202 ACCESO REMOTO A TERMINAL SERVER">
+				<title>Funcionando..</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/ts/202 ACCESO REMOTO A TERMINAL SERVER.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Funcionando.</phrase>
+				</textobject>
+				<caption>
+					<para>Funcionando.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>Usamos el Knnoppix 7 para conectarnos al server con la aplicacion "Terminal Server CLient":</para>
+			<figure id="203 knoppix aplica">
+				<title>Configurando conexión.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/ts/203 knoppix aplica.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Configurando conexión.</phrase>
+				</textobject>
+				<caption>
+					<para>Configurando conexión.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>Le colocamos la ruta de una aplicación del servidor, y le damos a conectar:</para>
+			<figure id="204 APP">
+				<title>Configurando la ruta.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/ts/204 APP.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Configurando la ruta.</phrase>
+				</textobject>
+				<caption>
+					<para>Configurando la ruta.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>No conecta debido a un problema de licencias.</para>
+			<figure id="205 NO DEJA ENTRAR">
+				<title>No conecta.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/ts/205 NO DEJA ENTRAR.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>No conecta.</phrase>
+				</textobject>
+				<caption>
+					<para>No conecta.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<figure id="206">
+				<title>Problema con licencias.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/ts/206.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Problema con licencias.</phrase>
+				</textobject>
+				<caption>
+					<para>Problema con licencias.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+	</section>
+	<section>
+		<title>5. RemoteApp.</title>
+		<section>
+			<title>Instalación y configuración.</title>
+			<para>Habilitamos las funciones Servidor Web ISS.</para>
+			<figure id="300b">
+				<title>Habilitar funciones.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/reapp/300b.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Habilitar funciones.</phrase>
+				</textobject>
+				<caption>
+					<para>Habilitar funciones.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>Configuramos las aplicaciones que queramos que puedan ser usadas por los clientes.</para>
+			<figure id="300 APLICACIONES">
+				<title>Aplicaciones a usar.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/reapp/300 APLICACIONES.PNG" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Aplicaciones a usar.</phrase>
+				</textobject>
+				<caption>
+					<para>Aplicaciones a usar.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>Creamos los archivos RDP que usaremos en el cliente. En la primera opción hay que desmarcar la casilla de los certificados.</para>
+			<figure id="301">
+				<title>Creación de archivos RDP.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/reapp/301.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Creación de archivos RDP.</phrase>
+				</textobject>
+				<caption>
+					<para>Creación de archivos RDP.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>Luego en el cliente probamos su funcionamiento (podemos agregarle restricciones en el servidor).</para>
+			<figure id="302">
+				<title>Paint.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/reapp/302.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Paint.</phrase>
+				</textobject>
+				<caption>
+					<para>Paint.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<figure id="303">
+				<title>Iniciando calculadora.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/reapp/303.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Iniciando calculadora.</phrase>
+				</textobject>
+				<caption>
+					<para>Iniciando calculadora.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<figure id="304">
+				<title>Calculadora.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a1/reapp/304.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>Calculadora.</phrase>
+				</textobject>
+				<caption>
+					<para>Calculadora.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+		</section>
+	</section>
+</chapter>

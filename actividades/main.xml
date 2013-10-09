@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="es">
+        
+<info>
+	<title>Administración de Sistemas Operativos 13/14.</title>
+	<author>
+		<personname>
+			<firstname>Elías</firstname>
+			<surname>González Perera</surname>			
+		</personname>
+	</author>
+	<author>
+		<personname>
+			<firstname>David</firstname>
+			<surname>Rodríguez Herrera</surname>
+		</personname>
+	</author>
+   
+	<legalnotice>
+		<para>Este documento está construcción. Se irá agregando temario a medida que avance el curso.</para>
+	</legalnotice>
+	<pubdate><?dbtimestamp?></pubdate>
+</info>
+
+
+<xi:include href="t1a1accesoremoto.xml" />
+
+</book>

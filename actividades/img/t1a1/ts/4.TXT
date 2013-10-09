@@ -1,0 +1,19 @@
+Instalamos el Terminal services
+IMAGEN INSTALACION
+
+Lo configuramos agregandole un equipo cliente para determinar ahi los permisos que tendra el cliente sobre en servidor.
+
+El cliente WIndows 7 se conectara a l servidor con la herramienta de Escritorio Remoto (en las opciones del escritorio remoto podemos automatizar que abra una aplicación del servidor).
+IMAGEN FUNCIONANDO
+
+Usamos el Knnoppix 7 para conectarnos al server con la aplicacion "Terminal Server CLient"
+IMAGEN 203
+
+Le colocamos la ruta de una aplicación del servidor, y le damos a conectar.
+IAMGEN 204
+
+No nos deja entrar.
+IMAGEN 205
+
+Observamos las licencias existentes.
+IMAGEN 206

@@ -1,0 +1,15 @@
+
+ACCESO REMOTO WIN a WIN:
+En el servidor activamos el Acceso remoto, Equipo, Propiedades, Acceso remodo, Permitir... luego en el botón "Seleccionar usuarios" agregamos los usuarios que queremos que esten disponibles para que tengan acceso remoto.  Aunque en nuestro caso, no pudimos entrar con el usuario "Profesor", pero si con el usuario "Administrador".
+
+
+ACCESO REMOTO LINUX a LINUX:
+Primero instalamos el paquete avahi-daemon y vino, y para iniciar el servicio primero ejecutamos vino-preferences y habilitamos la compartición del escritorio, y luego ya podemos iniciar el servicio del vino con /usr/lib/vino/vino-server.
+Ahora en el cliente iniciamos el vinagre y nos conectamos con el protocolo RDP a nuestro servidor.
+IMAGENES FUNCIONANDO
+
+ACCESO REMOTO LINUX a WIN:
+nos conectamos al servidor windows con el vinagre desde nuestro cliente linux.
+IMAGEN FUNCIONANDO
+
+[OPCIONAL]ACCESO RFEMOTO DE WINDOWS a LINUX este falta

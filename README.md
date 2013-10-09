@@ -1,8 +1,8 @@
 ADD1314
 =======
 
-ADD del curso 1314 elias
+ADD del curso 1314
 
 
-Probando edicion del fichero readme para ver que pasa
-* punto guion 1 y __negrita__ssstfhtrggf ?
+ALumno: 
+* __Elías González__

@@ -1,0 +1,13 @@
+Habilitamos las funciones Servidor Web ISS.
+imagen 300b
+
+Configuramos las aplicaciones que queremos que puedan ser usadas por los clientes.
+IMAGEN 300
+
+Creamos los archivos RDP que usaremos en el cliente. En la primera opción hay que desmarcar la casilla de los certificados.
+IMAGEN 301
+
+Luego en el cliente probamos su funcionamiento. Podemos agregarle restricciones en el servidor.
+IMAGEN FUNCIONANDO 302
+IMAGEN FUNCIONANDO 303
+IMAGEN FUNCIONANDO 304
