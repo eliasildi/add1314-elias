@@ -12,13 +12,13 @@
 		<title>1.Introducción.</title>
 		<para>Para realizar esta práctica vamos a usar los siguientes SS.OO.:
 		<itemizedlist>
-			<listitem>ubuntu Server.</listitem>
+			<listitem>OpenSUSE.</listitem>
 			<listitem>Una máquina virtual "SIN sistema" ni disco duro.</listitem>
 			</itemizedlist>
 		</para>
-		<para> Esta práctica consiste en instalar en un sistema un LTSP (Linux Terminal Server Project) el cual permite iniciar varios thin
-			clients desde un único servidor.
-.</para>
+		<para> Esta práctica consiste en instalar en un sistema un LTSP (Linux Terminal Server Project) el cual permite
+		iniciar varios thin clients desde un único servidor.
+		</para>
 	</section>
 	<section>
 		<title>2.Escritorio remoto con VNC.</title>
