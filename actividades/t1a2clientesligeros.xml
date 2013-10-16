@@ -56,26 +56,40 @@
 		</section>
 		<section>
 			<title>Configuración. VOY POR AQUI</title>
-			<para>En el servidor: instalamos el paquete tightvncserver. Luego iniciamos una sesión gráfica de VNC en el 
-			servidor con "tightvncserver :1 -geometry 800x600 -depth 24". NOTA: si lo creamos con el usuario root después 
-			desde el cliente entrará como root. Para darle de baja hacemos "tightvncserver -kill :1".</para>
-			<para>En el cliente: instalamos el paquete del visor "xtightvncviewer" luego lo ejecutamos con "xtightvncviewer" 
-			y nos pedirá la IP que pondremos seguido de dos puntos y el numero de display. Nos pedirá la contraseña, la insertamos 
-			y listo.</para>
-			<figure id="008 CONECTADO AL SERVIDOR">
-				<title>Linux a Linux.</title>
+			<para>En el servidor: preparamos la IP en estática (red interna), agregamos los usuarios necesarios, modificamos el
+			nombre del servidor, el del dominio. Modificaremos la configuración del fichero /var/lib/tftp/i386/ltsp.conf</para>
+			<figure id="003ahostname">
+				<title>hostname.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a1/vnc/008 CONECTADO AL SERVIDOR.PNG" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/003ahostname.png" format="PNG" align="center" scale="50" />
 				</imageobject>
 				<textobject>
-					<phrase>Linux a Linux.</phrase>
+					<phrase>hostname.</phrase>
 				</textobject>
 				<caption>
-					<para>Linux a Linux.</para>
+					<para>hostname.</para>
 				</caption>
 				</mediaobject>
 			</figure>
+			<figure id="004dominio">
+				<title>dominio.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/004dominio.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>dominio.</phrase>
+				</textobject>
+				<caption>
+					<para>dominio.</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			<para>En el cliente: debemos preparar una maquina virtual vacia, sin HDD 
+			y nos pedirá la IP que pondremos seguido de dos puntos y el numero de display. Nos pedirá la contraseña, la insertamos 
+			y listo.</para>
+			
 			<figure id="009 de linux a windows VNC">
 				<title>Linux a Windows.</title>
 				<mediaobject>
