@@ -12,7 +12,7 @@
 		<title>1.Introducción.</title>
 		<para>Para realizar esta práctica vamos a usar los siguientes SS.OO.:
 		<itemizedlist>
-			<listitem>OpenSUSE.</listitem>
+			<listitem>Xubuntu.</listitem>
 			<listitem>Una máquina virtual "SIN sistema" ni disco duro.</listitem>
 			</itemizedlist>
 		</para>
@@ -21,43 +21,41 @@
 		</para>
 	</section>
 	<section>
-		<title>2.Escritorio remoto con VNC.</title>
+		<title>2.Funcionamiento.</title>
 		<section>
-			<title>Windows.</title>
-			<para>Para realizar la práctica en Windows bastará con instalar VNC en Windows 2008 Server como servidor 
-			y en Windows 7 como cliente siguiendo los sencillos pasos del instalador. Y para conectarse en la máquina 
-			cliente (Windows7) desde VNC se pondrá la IP del equipo a ver (Windows 2008 Server).</para>
-			<figure id="005 CONECTADO AL SERVER">
-				<title>Windows a Windows.</title>
+			<title>Servidor LTSP.</title>
+			<para>Instalaremos el LTSP en nuestra máquina servidora, y seguidamente iniciamos el LTSP, y cuando termine procederemos a configurarlo.</para>
+			<figure id="001">
+				<title>Instalación.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a1/vnc/005 CONECTADO AL SERVER.PNG" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/001.png" format="PNG" align="center" scale="50" />
 				</imageobject>
 				<textobject>
-					<phrase>Windows a Windows.</phrase>
+					<phrase>Instalación.</phrase>
 				</textobject>
 				<caption>
-					<para>Windows a Windows.</para>
+					<para>Instalación.</para>
 				</caption>
 				</mediaobject>
 			</figure>
-			<figure id="Imagen 4">
-				<title>Windows a Linux.</title>
+			<figure id="002">
+				<title>Iniciar LTSP.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a1/vnc/Imagen 4.jpg" format="JPG" align="center" scale="150" />
+					<imagedata fileref="img/t1a2/002.jpg" format="JPG" align="center" scale="150" />
 				</imageobject>
 				<textobject>
-					<phrase>Windows a Linux.</phrase>
+					<phrase>Iniciar LTSP.</phrase>
 				</textobject>
 				<caption>
-					<para>Windows a Linux.</para>
+					<para>Iniciar LTSP.</para>
 				</caption>
 				</mediaobject>
 			</figure>
 		</section>
 		<section>
-			<title>Linux.</title>
+			<title>Configuración. VOY POR AQUI</title>
 			<para>En el servidor: instalamos el paquete tightvncserver. Luego iniciamos una sesión gráfica de VNC en el 
 			servidor con "tightvncserver :1 -geometry 800x600 -depth 24". NOTA: si lo creamos con el usuario root después 
 			desde el cliente entrará como root. Para darle de baja hacemos "tightvncserver -kill :1".</para>
