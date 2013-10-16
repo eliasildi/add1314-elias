@@ -24,7 +24,7 @@
 		<title>2.Funcionamiento.</title>
 		<section>
 			<title>Servidor LTSP.</title>
-			<para>Instalaremos el LTSP en nuestra máquina servidora, y seguidamente iniciamos el LTSP, y cuando termine procederemos a configurarlo.</para>
+			<para>Instalaremos el LTSP en nuestra máquina servidora, y seguidamente iniciamos el LTSP (este paso tarda bastante), y cuando termine procederemos a configurarlo.</para>
 			<figure id="001">
 				<title>Instalación.</title>
 				<mediaobject>
