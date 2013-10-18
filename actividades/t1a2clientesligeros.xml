@@ -24,7 +24,9 @@
 		<title>2.Funcionamiento.</title>
 		<section>
 			<title>Servidor LTSP.</title>
-			<para>Instalaremos el LTSP en nuestra máquina servidora, y seguidamente iniciamos el LTSP (este paso tarda bastante), y cuando termine procederemos a configurarlo.</para>
+			<para>Instalaremos el LTSP en nuestra máquina servidora, añadimos los usuarios y una ip estática, luego crearemos
+			la imagen del sistema LTSP (este paso tarda bastante),y cuando termine procederemos a configurarlo.
+			</para>
 			<figure id="001">
 				<title>Instalación.</title>
 				<mediaobject>
@@ -55,9 +57,23 @@
 			</figure>
 		</section>
 		<section>
-			<title>Configuración. VOY POR AQUI</title>
-			<para>En el servidor: preparamos la IP en estática (red interna), agregamos los usuarios necesarios, modificamos el
+			<title>Configuración.</title>
+			<para>En el servidor: preparamos la IP en estática (en red interna), agregamos los usuarios necesarios, modificamos el
 			nombre del servidor, el del dominio. Modificaremos la configuración del fichero /var/lib/tftp/i386/ltsp.conf</para>
+			<figure id="ip101.png">
+				<title>IP estática.</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/101.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>IP estática.</phrase>
+				</textobject>
+				<caption>
+					<para>IP estática.</para>
+				</caption>
+				</mediaobject>
+			</figure>			
 			<figure id="003ahostname">
 				<title>hostname.</title>
 				<mediaobject>
@@ -86,6 +102,18 @@
 				</caption>
 				</mediaobject>
 			</figure>
+			
+			<para>En el cliente: debemos preparar una maquina virtual vacia, sin HDD 
+			y nos pedirá la IP que pondremos seguido de dos puntos y el numero de display. Nos pedirá la contraseña, la insertamos 
+			y listo.</para>
+			
+			
+			
+			
+			
+			
+			
+			
 			<para>En el cliente: debemos preparar una maquina virtual vacia, sin HDD 
 			y nos pedirá la IP que pondremos seguido de dos puntos y el numero de display. Nos pedirá la contraseña, la insertamos 
 			y listo.</para>
