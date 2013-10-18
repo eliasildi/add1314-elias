@@ -103,6 +103,86 @@
 				</caption>
 				</mediaobject>
 			</figure>
+			<para>Ahora modificaremos el archivo /etc/NetworkManager/NetworkManager.conf:</para>
+			<figure id="102.png">
+				<title>NetworkManager.conf</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/102.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>NetworkManager.conf</phrase>
+				</textobject>
+				<caption>
+					<para>NetworkManager.conf</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			
+			<para>El fichero de configuración del DHCP en el fichero /etc/ltsp/dhcpd.conf:</para>
+			<figure id="103.png">
+				<title>dhcpd.conf</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/103.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>dhcpd.conf</phrase>
+				</textobject>
+				<caption>
+					<para>dhcpd.conf</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			
+				<para>Ahora debemos selecionar que interfaz de red destinada a LTSP en el fichero /etc/default/isc-dhcp-server:</para>
+			<figure id="104.png">
+				<title>/etc/default/isc-dhcp-server</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/104.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>/etc/default/isc-dhcp-server</phrase>
+				</textobject>
+				<caption>
+					<para>/etc/default/isc-dhcp-server</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			
+			<para>El penúltimo paso es reiniciar el servicio DHCP con /etc/init.d/isc-dhcp-server restart:</para>
+			<figure id="105.png">
+				<title>/etc/init.d/isc-dhcp-server restart</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/105.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>/etc/init.d/isc-dhcp-server restart</phrase>
+				</textobject>
+				<caption>
+					<para>/etc/init.d/isc-dhcp-server restart</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			
+				<para>El último paso es reiniciar el servicio tftpd-hpa con /etc/init.d/tftpd-hpa restart:</para>
+			<figure id="106.png">
+				<title>/etc/init.d/tftpd-hpa restart</title>
+				<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a2/106.png" format="PNG" align="center" scale="50" />
+				</imageobject>
+				<textobject>
+					<phrase>/etc/init.d/tftpd-hpa restart</phrase>
+				</textobject>
+				<caption>
+					<para>/etc/init.d/tftpd-hpa restart</para>
+				</caption>
+				</mediaobject>
+			</figure>
+			
 			</section>
 		<section>
 			<title>Configuración del cliente.</title>
