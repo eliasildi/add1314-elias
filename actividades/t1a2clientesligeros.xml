@@ -191,7 +191,7 @@
 			y cargará el boot dhcp, y detectará el DHCP del servidor LTSP, el cual está configurado para
 			cargar la imagen generada a través de la red, la cual se cargará en la memoria RAM del cliente.
 			Nos pedirá usuario y contraseña, introducimos nuestro usuario y listo, comienza la sesión de cliente ligero.</para>
-			<a href="URL"> Vídeo de cliente ligero conectado al LTSP</a>
+			<ulink url="http://youtube.com/">Vídeo de cliente ligero conectado al LTSP</ulink>
 		</section>
 		
 			
