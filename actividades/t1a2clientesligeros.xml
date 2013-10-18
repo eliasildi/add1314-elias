@@ -1,5 +1,5 @@
 <chapter>
-	<title>A1: Acceso remoto.</title>
+	<title>A2. LTSP</title>
 	<para>Esta práctica constará de los siguientes apartados:
 		<itemizedlist>
                 <listitem>1. Introducción.</listitem>
@@ -43,16 +43,16 @@
 				</mediaobject>
 			</figure>
 			<figure id="002">
-				<title>Iniciar LTSP.</title>
+				<title>Crear imagen LTSP.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/002.jpg" format="JPG" align="center" scale="150" />
+					<imagedata fileref="img/t1a2/002a.jpg" format="JPG" align="center" scale="150" />
 				</imageobject>
 				<textobject>
-					<phrase>Iniciar LTSP.</phrase>
+					<phrase>Crear imagen LTSP.</phrase>
 				</textobject>
 				<caption>
-					<para>Iniciar LTSP.</para>
+					<para>Crear imagen LTSP.</para>
 				</caption>
 				</mediaobject>
 			</figure>
@@ -191,7 +191,7 @@
 			y cargará el boot dhcp, y detectará el DHCP del servidor LTSP, el cual está configurado para
 			cargar la imagen generada a través de la red, la cual se cargará en la memoria RAM del cliente.
 			Nos pedirá usuario y contraseña, introducimos nuestro usuario y listo, comienza la sesión de cliente ligero.</para>
-			<a href="URL"> Vídeo de cliente ligero conectado al LTSP</A>
+			<a href="URL"> Vídeo de cliente ligero conectado al LTSP</a>
 		</section>
 		
 			
