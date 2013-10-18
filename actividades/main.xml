@@ -11,8 +11,8 @@
 	</author>
 	<author>
 		<personname>
-			<firstname>David</firstname>
-			<surname>Rodríguez Herrera</surname>
+			<firstname> </firstname>
+			<surname> </surname>
 		</personname>
 	</author>
    
@@ -23,6 +23,6 @@
 </info>
 
 
-<xi:include href="t1a1accesoremoto.xml" />
+<xi:include href="t1a2clientesligeros.xml" />
 
 </book>
