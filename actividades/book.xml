@@ -1,3 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="es">
+        
+<info>
+	<title>Administración de Sistemas Operativos 13/14.</title>
+	<author>
+		<personname>
+			<firstname>Elías</firstname>
+			<surname>González Perera</surname>			
+		</personname>
+	</author>
+	<author>
+		<personname>
+			<firstname> </firstname>
+			<surname> </surname>
+		</personname>
+	</author>
+   
+	<legalnotice>
+		<para>Este documento está construcción. Se irá agregando temario a medida que avance el curso.</para>
+	</legalnotice>
+	<pubdate><?dbtimestamp?></pubdate>
+</info>
+
+
 <chapter>
 	<title>A2. LTSP</title>
 	<para>Esta práctica constará de los siguientes apartados:
@@ -32,7 +57,7 @@
 				<title>Instalación.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/001.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a2/001.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Instalación.</phrase>
@@ -46,7 +71,7 @@
 				<title>Crear imagen LTSP.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/002a.png" format="JPG" align="center" scale="70" />
+					<imagedata fileref="img/t1a2/002a.png" format="JPG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Crear imagen LTSP.</phrase>
@@ -65,7 +90,7 @@
 				<title>IP estática.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/101.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/101.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>IP estática.</phrase>
@@ -79,7 +104,7 @@
 				<title>hostname.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/003ahostname.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/003ahostname.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>hostname.</phrase>
@@ -93,7 +118,7 @@
 				<title>dominio.</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/004dominio.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/004dominio.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>dominio.</phrase>
@@ -108,7 +133,7 @@
 				<title>NetworkManager.conf</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/102.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/102.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>NetworkManager.conf</phrase>
@@ -124,7 +149,7 @@
 				<title>dhcpd.conf</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/103.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/103.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>dhcpd.conf</phrase>
@@ -140,7 +165,7 @@
 				<title>/etc/default/isc-dhcp-server</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/104.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/104.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>/etc/default/isc-dhcp-server</phrase>
@@ -156,7 +181,7 @@
 				<title>/etc/init.d/isc-dhcp-server restart</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/105.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/105.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>/etc/init.d/isc-dhcp-server restart</phrase>
@@ -172,7 +197,7 @@
 				<title>/etc/init.d/tftpd-hpa restart</title>
 				<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a2/106.png" format="PNG" align="center" scale="50" />
+					<imagedata fileref="img/t1a2/106.png" format="PNG" align="center" scale="50"/>
 				</imageobject>
 				<textobject>
 					<phrase>/etc/init.d/tftpd-hpa restart</phrase>
@@ -209,3 +234,5 @@
 	</section>
 
 </chapter>
+
+</book>
