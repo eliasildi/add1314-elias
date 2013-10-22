@@ -1,4 +1,4 @@
-#Fichero: Makefile
+#Fichero: Makefile MODIFICADO para instalar libxml2-utils para debian Y TAMBIEN libservlet3.0-java
 #Compilar con:
 # $make
 DOC=book
@@ -44,6 +44,6 @@ clean:
 
 install:
 	@echo "\n=== Installing development tools\n"
-	apt-get install xsltproc fop docbook-xsl-ns docbook5-xml
+	apt-get install -y -m xsltproc fop docbook-xsl-ns docbook5-xml libxml2-utils libservlet3.0-java
 	@echo "\n===Done.\n"
         
