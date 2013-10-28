@@ -1,13 +1,14 @@
-#Fichero: Makefile MODIFICADO para instalar libxml2-utils para debian Y TAMBIEN libservlet3.0-java
+#Fichero: Makefile 2013/10/28 17.12
 #Compilar con:
 # $make
-DOC=book
 
+DOC=workbook
 XMLMAIN=main.xml
-XMLFILE=book.xml
-PDFFILE=$(DOC).pdf
-FOPFILE=$(DOC).fo
-HTMLFILE=$(DOC).html
+
+XMLFILE=tmp/second.xml
+PDFFILE=output/$(DOC).pdf
+FOPFILE=tmp/$(DOC).fo
+HTMLFILE=output/$(DOC).html
 
 FOXSL=/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/fo/docbook.xsl
 HTMLXSL=/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/xhtml-1_1/docbook.xsl
@@ -15,35 +16,41 @@ HTMLXSL=/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/xhtml-1_1/docbook.xsl
 main:
 	make clean
 	make pdf
-        
-second:
-	@echo "\n=== Creating book.xml with all xml files\n"
-	xmllint --xinclude --output $(XMLFILE) $(XMLMAIN)
-	@echo "\n=== Done\n"
 
-# Build the docs in PDF format
 pdf: second
-	@echo "\n=== Creating PDF\n"
+	@echo "=== [INFO] Creating PDF output..."
 	xsltproc -o $(FOPFILE) $(FOXSL) $(XMLFILE)
 	fop -fo $(FOPFILE) -pdf $(PDFFILE)
-	@echo "\n===Done.\n"
+	make cleantmp
+
+second:
+	@echo "\n=== Creating $(XMLFILE) with all xml files"
+	xmllint --xinclude --output $(XMLFILE) $(XMLMAIN)
 
 html: second
+	@echo "=== [INFO] Creating HTML output..."
 	xsltproc -o $(HTMLFILE) $(HTMLXSL) $(XMLFILE)
+	make cleantmp
 
-check:
-	@echo -e "\n=== Checking correctness of $(XMLFILE)\n"
+check: second
+	@echo -e "\n=== Checking correctness of $(XMLFILE)"
 	@xmllint --valid --noout --postvalid $(XMLFILE)
-	@echo -e "Done.\n"
+	@echo -e "Done"
 
-clean: 
-	rm -f $(FOPFILE)
-	rm -f $(XMLFILE)
+clean:
+	@echo -e "\n=== [INFO] Cleaning..."
+	make cleantmp
 	rm -f $(PDFFILE)
 	rm -f $(HTMLFILE)
 
+cleantmp: 
+	rm -f $(FOPFILE)
+	rm -f $(XMLFILE)
+
 install:
-	@echo "\n=== Installing development tools\n"
-	apt-get install -y -m xsltproc fop docbook-xsl-ns docbook5-xml libxml2-utils
-	@echo "\n===Done.\n"
-        
+	@echo "=== [INFO] Installing development tools"
+	apt-get install -y xsltproc fop docbook-xsl-ns docbook5-xml
+	apt-get install -y libxml2-utils
+	apt-get install -y ruby ri irb
+	mkdir output
+	mkdir tmp
