@@ -1,4 +1,4 @@
-#Fichero: Makefile 2013/10/28 17.12
+#Fichero: Makefile
 #Compilar con:
 # $make
 
@@ -49,8 +49,11 @@ cleantmp:
 
 install:
 	@echo "=== [INFO] Installing development tools"
-	apt-get install -y xsltproc fop docbook-xsl-ns docbook5-xml
-	apt-get install -y libxml2-utils
-	apt-get install -y ruby ri irb
-	mkdir output
-	mkdir tmp
+	sudo apt-get install -y xsltproc fop docbook-xsl-ns docbook5-xml
+	sudo apt-get install -y libxml2-utils
+	sudo apt-get install -y ruby ri irb
+	mkdir -p output
+	mkdir -p tmp
+	mkdir -p pdf
+	mkdir -p img
+	mkdir -p revoltillo
