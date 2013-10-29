@@ -35,12 +35,8 @@
 		<title>1. Preparativos.</title>
 		
 		<section>
-			<title>Instalación  y configuracion del Servidor SSH Ubuntu.</title>
+			<title>Configuracion del Servidor SSH Ubuntu.</title>
 			<para>bla bla bla</para>
-			<section>
-				<title>Instalación.</title>
-				<para>bla bla bla</para>
-			</section>
 			
 			<section>
 				<title>IP, HOST, Nombres de equipo, usuarios.</title>
@@ -99,15 +95,44 @@
 				
 				
 			</section>
-		</section>
+</section>
+
+<section>
+		<title>2. Instalación Básica.</title>
+		<para>bla bla bla</para>
 		
-	<section>
-		<title>8. Resumen.</title>
-		<section>
-			<title>¿Qué hemos realizado?.</title>
-			<para>bla bla bla.
-			</para>
-		</section>
-	</section>
+</section>
+
+
+<section>
+		<title>3. Personalización del prompt Bash.</title>
+		<para>bla bla bla</para>
+		
+</section>
+
+
+<section>
+		<title>4. Autenticación mediante claves públicas</title>
+		<para>bla bla bla</para>
+		
+</section>
+
+<section>
+		<title>5. Uso de SSH como túnel para X</title>
+		<para>bla bla bla</para>
+		
+</section>
+
+<section>
+		<title>6. Aplicaciones Windows nativas</title>
+		<para>bla bla bla</para>
+		
+</section>
+
+<section>
+		<title>7. Restricciones de uso</title>
+		<para>bla bla bla</para>
+		
+</section>
 
 </chapter>
