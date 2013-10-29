@@ -14,7 +14,8 @@
         </itemizedlist>
 	</para>
 	
-	<section>
+<sect1>
+
 		<title>0. Introducción.</title>
 		<para>Para realizar esta práctica vamos a realizar dos esquemas, el primero con tendra un servidor SSH instalado
 		en Ubuntu con dos clientes (Windows 7 y OpenSuse) y eñ segundo esquema tendrá un servidor SSH bajo Windows Server
@@ -30,8 +31,9 @@
 			<listitem>C2. Windows 7.</listitem>
 		</itemizedlist>
 		</para>
-	</section>
-	<section>
+</sect1>
+
+<sect2>
 		<title>1. Preparativos.</title>
 		
 		<section>
@@ -95,44 +97,47 @@
 				
 				
 			</section>
-</section>
+		</section>
+</sect2>
 
-<section>
+
+<sect3>
 		<title>2. Instalación Básica.</title>
 		<para>bla bla bla</para>
 		
-</section>
+</sect3>
 
 
-<section>
+<sect4>
 		<title>3. Personalización del prompt Bash.</title>
 		<para>bla bla bla</para>
 		
-</section>
+</sect4>
 
 
-<section>
+<sect5>
 		<title>4. Autenticación mediante claves públicas</title>
 		<para>bla bla bla</para>
 		
-</section>
+</sect5>
 
-<section>
+<sect6>
 		<title>5. Uso de SSH como túnel para X</title>
 		<para>bla bla bla</para>
 		
-</section>
+</sect6>
 
-<section>
+<sect7>
 		<title>6. Aplicaciones Windows nativas</title>
 		<para>bla bla bla</para>
 		
-</section>
+</sect7>
 
-<section>
+<sect8>
 		<title>7. Restricciones de uso</title>
 		<para>bla bla bla</para>
 		
-</section>
+</sect8>
+
 
 </chapter>
