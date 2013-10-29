@@ -1,0 +1,113 @@
+<chapter>
+	<title>A3 SSH</title>
+	<para>Esta práctica constará de los siguientes apartados:
+		<itemizedlist>
+                <listitem>0. Introducción.</listitem>
+                <listitem>1. Preparativos.</listitem>
+                <listitem>2. Instalación básica.</listitem>
+                <listitem>3. Personalización del prompt Bash</listitem>
+                <listitem>4. Autenticación mediante claves públicas</listitem>
+                <listitem>5. Uso de SSH como túnel para X</listitem>
+                <listitem>6. Aplicaciones Windows nativas</listitem>
+                <listitem>7. Restricciones de uso</listitem>
+                <listitem>8. Resumen</listitem>
+        </itemizedlist>
+	</para>
+	
+	<section>
+		<title>0. Introducción.</title>
+		<para>Para realizar esta práctica vamos a realizar dos esquemas, el primero con tendra un servidor SSH instalado
+		en Ubuntu con dos clientes (Windows 7 y OpenSuse) y eñ segundo esquema tendrá un servidor SSH bajo Windows Server
+		2008 con dos clientes también (Windows 7 y OpenSuse):
+		<itemizedlist>
+			<listitem>S1. Servidor SSH Ubuntu.</listitem>
+			<listitem>C1. OpenSuse.</listitem>
+			<listitem>C2. Windows 7.</listitem>
+		</itemizedlist>
+		<itemizedlist>
+			<listitem>S1. Servidor SSH wIndows Server 2008.</listitem>
+			<listitem>C1. OpenSuse.</listitem>
+			<listitem>C2. Windows 7.</listitem>
+		</itemizedlist>
+		</para>
+	</section>
+	<section>
+		<title>1. Preparativos.</title>
+		
+		<section>
+			<title>Instalación  y configuracion del Servidor SSH Ubuntu.</title>
+			<para>bla bla bla</para>
+			<section>
+				<title>Instalación.</title>
+				<para>bla bla bla</para>
+			</section>
+			
+			<section>
+				<title>IP, HOST, Nombres de equipo, usuarios.</title>
+				<para>bla bla bla</para>
+			</section>
+		</section>
+		
+		<section>
+			<title>Instalación  y configuracion del Servidor SSH Windows.</title>
+			<para>bla bla bla</para>
+			<section>
+				<title>Instalación.</title>
+				<para>bla bla bla</para>
+			</section>
+			
+			<section>
+				<title>IP, HOST, Nombres de equipo, usuarios.</title>
+				<para>bla bla bla</para>
+			</section>
+		</section>
+		
+		<section>
+			<title>Clientes.</title>
+			<para>Los clientes son iguales en ambos esquemas, tan solo cambian las Ips</para>
+			<section>
+				<title>Opensuse.</title>
+				<para>bla bla bla</para>
+				
+				<section>
+					<title>Instalación.</title>
+					<para>bla bla bla</para>
+				</section>
+			
+				<section>
+					<title>IP, HOST, Nombres de equipo, usuarios.</title>
+					<para>bla bla bla</para>
+				</section>
+				
+				
+			</section>
+			
+			<section>
+				<title>Windows 7</title>
+				<para>bla bla bla</para>
+				
+				<section>
+					<title>Instalación.</title>
+					<para>bla bla bla</para>
+				</section>
+			
+				<section>
+					<title>IP, HOST, Nombres de equipo, usuarios.</title>
+					<para>bla bla bla</para>
+				</section>
+				
+				
+				
+			</section>
+		</section>
+		
+	<section>
+		<title>8. Resumen.</title>
+		<section>
+			<title>¿Qué hemos realizado?.</title>
+			<para>bla bla bla.
+			</para>
+		</section>
+	</section>
+
+</chapter>
