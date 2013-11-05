@@ -18,10 +18,10 @@
 
 		<title>0. Introducción.</title>
 		<para>Para realizar esta práctica vamos a realizar dos esquemas, el primero con tendra un servidor SSH instalado
-		en Ubuntu con dos clientes (Windows 7 y OpenSuse) y eñ segundo esquema tendrá un servidor SSH bajo Windows Server
+		en XUbuntu con dos clientes (Windows 7 y OpenSuse) y el segundo esquema tendrá un servidor SSH bajo Windows Server
 		2008 con dos clientes también (Windows 7 y OpenSuse):
 		<itemizedlist>
-			<listitem>S1. Servidor SSH Ubuntu.</listitem>
+			<listitem>S1. Servidor SSH XUbuntu.</listitem>
 			<listitem>C1. OpenSuse.</listitem>
 			<listitem>C2. Windows 7.</listitem>
 		</itemizedlist>
@@ -37,7 +37,7 @@
 		<title>1. Preparativos.</title>
 		
 		<section>
-			<title>Configuracion del Servidor SSH Ubuntu.</title>
+			<title>Configuracion del Servidor SSH XUbuntu.</title>
 			<para>bla bla bla</para>
 			
 			<section>
