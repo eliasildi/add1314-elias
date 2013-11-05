@@ -42,7 +42,56 @@
 			
 			<section>
 				<title>IP, HOST, Nombres de equipo, usuarios.</title>
-				<para>bla bla vvbla</para>
+				<para>
+				<figure id="001">
+		<title>Usuarios.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/01.s.usuarios.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Usuarios.</phrase>
+				</textobject>
+				<caption>
+					<para>Usuarios.</para>
+				</caption>
+			</mediaobject>
+</figure>
+
+
+<figure id="002">
+		<title>IPs Servidor.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/01sIPstatic.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Ips Servidor.</phrase>
+				</textobject>
+				<caption>
+					<para>Ips Servidor.</para>
+				</caption>
+			</mediaobject>
+</figure>
+
+
+<figure id="003">
+		<title>Nombre equipo.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/01s.etc-hosts.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Nombre equipo.</phrase>
+				</textobject>
+				<caption>
+					<para>Nombre equipo.</para>
+				</caption>
+			</mediaobject>
+</figure>
+				
+				
+				</para>
 			</section>
 		</section>
 		
