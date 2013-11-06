@@ -39,7 +39,7 @@
 		<section>
 			<title>Configuracion del Servidor SSH XUbuntu.</title>
 			<para>Instalamos el openssh-server:
-			<figure id="999">
+<figure id="999">
 		<title>Instalar SSH.</title>
 			<mediaobject>
 				<imageobject>
