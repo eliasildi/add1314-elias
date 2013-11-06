@@ -263,7 +263,24 @@
 				</caption>
 			</mediaobject>
 </figure>
-			
+		<para>En Windows no encontramos el fichero known_hosts. Crearemos nuevas claves en el servidor con el comando ssh-keygen:</para>
+
+<figure id="011">
+		<title>Generar Nuevas Claves.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/2sssh-keygen.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Generar Nuevas Claves.</phrase>
+				</textobject>
+				<caption>
+					<para>Generar Nuevas Claves.</para>
+				</caption>
+			</mediaobject>
+</figure>
+		
+		
 		
 </sect3>
 
