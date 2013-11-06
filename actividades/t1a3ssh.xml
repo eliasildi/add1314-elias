@@ -294,7 +294,23 @@
 				</caption>
 			</mediaobject>
 </figure>
-		
+	
+
+			<para>Volvemos a conectarnos desde los clientes, usando el usuario remoteuser2 y remoteuser1. ¿Qué sucede?:</para>
+<figure id="012">
+		<title>Reconectar con SSH.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/CAPTURAJOELRECONECTAR.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Reconectar con SSH.</phrase>
+				</textobject>
+				<caption>
+					<para>Reconectar con SSH.</para>
+				</caption>
+			</mediaobject>
+</figure>	
 		
 </sect3>
 
