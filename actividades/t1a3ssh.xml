@@ -279,7 +279,21 @@
 				</caption>
 			</mediaobject>
 </figure>
-		
+			<para>Reiniciamos el servicio:</para>
+<figure id="012">
+		<title>Reiniciar SSH.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/2sreiniciarservicio.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Reiniciar SSH.</phrase>
+				</textobject>
+				<caption>
+					<para>Reiniciar SSH.</para>
+				</caption>
+			</mediaobject>
+</figure>
 		
 		
 </sect3>
