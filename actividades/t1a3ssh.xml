@@ -39,7 +39,7 @@
 		<section>
 			<title>Configuracion del Servidor SSH XUbuntu.</title>
 			<para>Instalamos el openssh-server:
-<figure id="999">
+<figure id="000">
 		<title>Instalar SSH.</title>
 			<mediaobject>
 				<imageobject>
@@ -146,18 +146,34 @@
 			
 			<section>
 				<title>Windows 7</title>
-				<para>Tendremos que instalar un software para poder utilizar ssh, y modificaremos el archivo Host</para>
+				<para>Tendremos que instalar un software para poder utilizar ssh, y modificaremos el archivo C:\Windows\System32\drivers\etc\hosts</para>
 				
 				<section>
 					<title>Instalación.</title>
-					<para>Instalaremos el PuTTY</para>
+					<para>Instalaremos el PuTTY
+<figure id="004">
+		<title>Putty instalado</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/c1putty.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Putty instalado.</phrase>
+				</textobject>
+				<caption>
+					<para>Putty instalado.</para>
+				</caption>
+			</mediaobject>
+</figure>
+					
+					</para>
 				</section>
 			
 				<section>
-					<title>IP, HOST, Nombres de equipo, usuarios.</title>
+					<title>IP, HOST.</title>
 					<para>
 					
-					<figure id="004">
+<figure id="005">
 		<title>IP Win7</title>
 			<mediaobject>
 				<imageobject>
@@ -168,6 +184,21 @@
 				</textobject>
 				<caption>
 					<para>IP Win7.</para>
+				</caption>
+			</mediaobject>
+</figure>
+
+<figure id="006">
+		<title>Archivo Hosts</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/c1hosts.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Archivo Hosts.</phrase>
+				</textobject>
+				<caption>
+					<para>Archivo Hosts.</para>
 				</caption>
 			</mediaobject>
 </figure>
