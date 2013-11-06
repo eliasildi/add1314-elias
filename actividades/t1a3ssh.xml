@@ -316,9 +316,25 @@
 
 
 <sect4>
-		<title>3. Personalización del prompt Bash.</title>
-		<para>bla bla bla</para>
-		
+		<title>3. Personalización del prompt Bash. ELIAS ESTA EN PROCESO</title>
+		<para>En cada usuario hay que modificar el fichero .bashrc y agregar unas lineas al final:</para>
+<figure id="013">
+		<title>Fichero .bashrc.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/en proceso .png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Fichero .bashrc.</phrase>
+				</textobject>
+				<caption>
+					<para>Fichero .bashrc.</para>
+				</caption>
+			</mediaobject>
+</figure>	
+
+
+
 </sect4>
 
 
