@@ -202,7 +202,7 @@
 		<title>2. Instalación Básica.</title>
 		
 		<para>Instalamos el openssh-server:
-<figure id="000">
+<figure id="007">
 		<title>Instalar SSH.</title>
 			<mediaobject>
 				<imageobject>
@@ -216,7 +216,54 @@
 				</caption>
 			</mediaobject>
 </figure>
-			</para>
+		</para>
+			<title>Comprobaciones y generación de claves.</title>
+			<para>Iniciamos el servicio ssh:</para>
+<figure id="008">
+		<title>Iniciar ssh.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/2sverificar.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Iniciar ssh.</phrase>
+				</textobject>
+				<caption>
+					<para>Iniciar ssh.</para>
+				</caption>
+			</mediaobject>
+</figure>
+			<para>Nos conectamos desde Windows con PuTTy:</para>
+<figure id="009">
+		<title>Primera coexion ssh.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/CAPTURA-JOEL.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Primera coexion ssh.</phrase>
+				</textobject>
+				<caption>
+					<para>Primera coexion ssh.</para>
+				</caption>
+			</mediaobject>
+</figure>
+			
+<figure id="010">
+		<title>Conectado con Putty.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/2c1remoteuser1.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Conectado con Putty.</phrase>
+				</textobject>
+				<caption>
+					<para>Conectado con Putty.</para>
+				</caption>
+			</mediaobject>
+</figure>
+			
 		
 </sect3>
 
