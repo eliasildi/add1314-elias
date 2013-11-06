@@ -146,18 +146,31 @@
 			
 			<section>
 				<title>Windows 7</title>
-				<para>Tendremos que instalar un software para poder utilizar ssh, en el apartado de instalación se detallará un poco mas</para>
+				<para>Tendremos que instalar un software para poder utilizar ssh, y modificaremos el archivo Host</para>
 				
 				<section>
 					<title>Instalación.</title>
-					<para>bla bla bla</para>
+					<para>Instalaremos el PuTTY</para>
 				</section>
 			
 				<section>
 					<title>IP, HOST, Nombres de equipo, usuarios.</title>
 					<para>
 					
-					
+					<figure id="004">
+		<title>IP Win7</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/c1IP.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>IP Win7.</phrase>
+				</textobject>
+				<caption>
+					<para>IP Win7.</para>
+				</caption>
+			</mediaobject>
+</figure>
 					
 					</para>
 				</section>
