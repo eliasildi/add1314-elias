@@ -322,7 +322,7 @@
 		<title>Fichero .bashrc.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/en proceso .png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/3bashhrc.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 				<textobject>
 					<phrase>Fichero .bashrc.</phrase>
@@ -331,7 +331,24 @@
 					<para>Fichero .bashrc.</para>
 				</caption>
 			</mediaobject>
-</figure>	
+</figure>
+
+<para>Probamos:</para>
+<figure id="013">
+		<title>Ejecutar ssh y ver color del bash</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/3bashhrc2.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Ejecutar ssh y ver color del bash</phrase>
+				</textobject>
+				<caption>
+					<para>Ejecutar ssh y ver color del bash</para>
+				</caption>
+			</mediaobject>
+</figure>
+
 
 
 
