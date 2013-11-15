@@ -499,7 +499,7 @@
 		
 		<section>
 			<title>7.2 Restricción total (tipo 2)</title>
-			<para>manualmente sin script</para>			
+			<para>Modificamos el archivo "/etc/ssh/sshd_config" añadiendo la denegación:</para>			
 		</section>
 		
 		<section>
