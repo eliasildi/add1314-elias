@@ -499,31 +499,23 @@
 		
 		<section>
 			<title>7.2 Restricción total (tipo 2)</title>
+			<para>manualmente sin script</para>			
+		</section>
+		
+		<section>
+			<title>7.3 Restricción temporal (tipo 3)</title>
 			<para>Crearemos un script que "bloquee" a los usuarios, irá en "/usr/local/bin/" pero lo lanzaremos manualmente, cuando se lanza la orden
 			de bloquear se modificara el archivo "sshd_config.system" quitando los usuarios que no queremos, y cuando se lanza
 			la orden de permitir se añadiran los usuarios al fichero. (o sustituiremos el fichero completo teniendo dos para cada caso.</para>
 			
-				<figure id="020">
+			<figure id="020">
 			<title>Restricción</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/JOEEEL-SCRIP2.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Restricción</phrase>
-				</textobject>
-				<caption>
-					<para>Restricción</para>
-				</caption>
 			</mediaobject>
 			</figure>
-			
-			
-		</section>
-		
-		<section>
-			<title>7.3 Restricción temporal (tipo 3)</title>
-			<para></para>
 			
 		</section>
 		
