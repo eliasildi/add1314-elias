@@ -451,6 +451,21 @@
 				</caption>
 			</mediaobject>
 			</figure>
+			
+			<figure id="018">
+			<title>Duda: rm -fr desde cliente en el servidor?</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/ccleaner3rm-rfxanxanxannnn.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Duda: rm -fr desde cliente en el servidor?</phrase>
+				</textobject>
+				<caption>
+					<para>Duda: rm -fr desde cliente en el servidor?</para>
+				</caption>
+			</mediaobject>
+			</figure>
 		
 		
 		
@@ -484,7 +499,7 @@
 		
 		<section>
 			<title>7.2 Restricción total (tipo 2)</title>
-			<para>Crearemos un script que "bloquee" a los usuarios, pero lo lanzaremos manualmente, cuando se lanza la orden
+			<para>Crearemos un script que "bloquee" a los usuarios, irá en "/usr/local/bin/" pero lo lanzaremos manualmente, cuando se lanza la orden
 			de bloquear se modificara el archivo "sshd_config.system" quitando los usuarios que no queremos, y cuando se lanza
 			la orden de permitir se añadiran los usuarios al fichero. (o sustituiremos el fichero completo teniendo dos para cada caso.</para>
 			
@@ -492,7 +507,7 @@
 			<title>Restricción</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/SCRIP2.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/JOEEEL-SCRIP2.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 				<textobject>
 					<phrase>Restricción</phrase>
