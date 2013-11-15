@@ -429,25 +429,25 @@
 					<imagedata fileref="img/t1a3/CCLEANER.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 				<textobject>
-					<phrase>Probar Wine en cliente</phrase>
+					<phrase>Lanzar el ccleaner</phrase>
 				</textobject>
 				<caption>
-					<para>Probar Wine en cliente</para>
+					<para>Lanzar el ccleaner</para>
 				</caption>
 			</mediaobject>
 			</figure>
 			
-			<figure id="017">
-			<title>Probar Wine en cliente</title>
+			<figure id="018">
+			<title>Ccleaner ssh wine</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/CCLEANER2.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 				<textobject>
-					<phrase>Probar Wine en cliente</phrase>
+					<phrase>Ccleaner ssh wine</phrase>
 				</textobject>
 				<caption>
-					<para>Probar Wine en cliente</para>
+					<para>Ccleaner ssh wine</para>
 				</caption>
 			</mediaobject>
 			</figure>
@@ -458,10 +458,62 @@
 <sect8>
 		<title>7. Restricciones de uso</title>
 		<para>Vamos a modificar los usuarios del servidor SSH para añadir algunas restricciones de uso del servicio.</para>
+		
 		<section>
-			
+			<title>7.1 Sin restricción (tipo 1)</title>
+			<para></para>
 			
 		</section>
+		
+		<section>
+			<title>7.2 Restricción total (tipo 2)</title>
+			<para></para>
+			
+		</section>
+		
+		<section>
+			<title>7.3 Restricción temporal (tipo 3)</title>
+			<para></para>
+			
+		</section>
+		
+		<section>
+			<title>7.4 Restricción sobre aplicaciones (tipo 4)</title>
+			<para></para>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 </sect8>
 
 
