@@ -461,7 +461,21 @@
 		
 		<section>
 			<title>7.1 Sin restricción (tipo 1)</title>
-			<para></para>
+			<para>Usuario sin restricciones, el usuario remoteuser1, podrá conectarse vía SSH sin restricciones.</para>
+			<figure id="019">
+			<title>Conectando</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/0.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Conectando</phrase>
+				</textobject>
+				<caption>
+					<para>Conectando</para>
+				</caption>
+			</mediaobject>
+			</figure>
 			
 			
 		</section>
