@@ -1,3 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="es">
+        
+<info>
+	<title>Administración de Sistemas Operativos 13/14.</title>
+	<author>
+		<personname>
+			<firstname>Elías</firstname>
+			<surname>González Perera</surname>			
+		</personname>
+	</author>
+	<author>
+		<personname>
+			<firstname> </firstname>
+			<surname> </surname>
+		</personname>
+	</author>
+   
+	<legalnotice>
+		<para>Este documento está construcción. Se irá agregando temario a medida que avance el curso.</para>
+	</legalnotice>
+	<pubdate><?dbtimestamp?></pubdate>
+</info>
+
+
 <chapter>
 	<title>A3 SSH</title>
 	<para>Esta práctica constará de los siguientes apartados:
@@ -47,7 +72,7 @@
 		<title>Usuarios.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/01.s.usuarios.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/01.s.usuarios.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Usuarios.</phrase>
@@ -63,7 +88,7 @@
 		<title>IPs Servidor.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/01sIPstatic.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/01sIPstatic.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Ips Servidor.</phrase>
@@ -79,7 +104,7 @@
 		<title>Nombre equipo.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/01s.etc-hosts.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/01s.etc-hosts.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Nombre equipo.</phrase>
@@ -140,7 +165,7 @@
 		<title>Putty instalado</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/c1putty.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/c1putty.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Putty instalado.</phrase>
@@ -162,7 +187,7 @@
 		<title>IP Win7</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/c1IP.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/c1IP.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>IP Win7.</phrase>
@@ -177,7 +202,7 @@
 		<title>Archivo Hosts</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/c1hosts.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/c1hosts.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Archivo Hosts.</phrase>
@@ -206,7 +231,7 @@
 		<title>Instalar SSH.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/01sopenssh-server.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/01sopenssh-server.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Instalar SSH.</phrase>
@@ -223,7 +248,7 @@
 		<title>Iniciar ssh.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/2sverificar.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/2sverificar.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Iniciar ssh.</phrase>
@@ -238,7 +263,7 @@
 		<title>Primera coexion ssh.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/CAPTURA-JOEL.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/CAPTURA-JOEL.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Primera coexion ssh.</phrase>
@@ -253,7 +278,7 @@
 		<title>Conectado con Putty.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/2c1remoteuser1.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/2c1remoteuser1.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Conectado con Putty.</phrase>
@@ -269,7 +294,7 @@
 		<title>Generar Nuevas Claves.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/2sssh-keygen.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/2sssh-keygen.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Generar Nuevas Claves.</phrase>
@@ -284,7 +309,7 @@
 		<title>Reiniciar SSH.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/2sreiniciarservicio.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/2sreiniciarservicio.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Reiniciar SSH.</phrase>
@@ -301,7 +326,7 @@
 		<title>Reconectar con SSH.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/CAPTURAJOELRECONECTAR.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/CAPTURAJOELRECONECTAR.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Reconectar con SSH.</phrase>
@@ -322,7 +347,7 @@
 		<title>Fichero .bashrc.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/3bashhrc.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/3bashhrc.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Fichero .bashrc.</phrase>
@@ -338,7 +363,7 @@
 		<title>Ejecutar ssh y ver color del bash</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/3bashhrc2.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/3bashhrc2.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Ejecutar ssh y ver color del bash</phrase>
@@ -375,7 +400,7 @@
 		<title>Wine</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/6swine.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/6swine.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Wine</phrase>
@@ -385,14 +410,12 @@
 				</caption>
 			</mediaobject>
 </figure>
-		<para>Instalar aplicación (APP2) de Windows en el servidor SSH usando el emulador Wine. Elegimos el
-		CCleaner porque seguramente al instalar el Wine nos creará una "instalación virtual de windows" con
-		sus registros y archivos temporales que podremos limpiar con el Ccleaner.</para>
+		<para>Instalar aplicación (APP2) de Windows en el servidor SSH usando el emulador Wine.</para>
 			<figure id="015">
 			<title>App con Wine</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/6swineapp.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/6swineapp.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>App con Wine</phrase>
@@ -408,7 +431,7 @@
 			<title>Probar Wine en server</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/6swineappprobarenserver.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/6swineappprobarenserver.png" format="PNG" align="center" scale="70"/>
 				</imageobject>
 				<textobject>
 					<phrase>Probar Wine en server</phrase>
@@ -418,51 +441,17 @@
 				</caption>
 			</mediaobject>
 			</figure>
-			
-			
-			
-			<para>Comprobar el funcionamiento de APP2 desde Cliente..</para>
-			<figure id="017">
-			<title>Probar Wine en cliente</title>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="img/t1a3/CCLEANER.png" format="PNG" align="center" scale="70" />
-				</imageobject>
-				<textobject>
-					<phrase>Probar Wine en cliente</phrase>
-				</textobject>
-				<caption>
-					<para>Probar Wine en cliente</para>
-				</caption>
-			</mediaobject>
-			</figure>
-			
-			<figure id="017">
-			<title>Probar Wine en cliente</title>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="img/t1a3/CCLEANER2.png" format="PNG" align="center" scale="70" />
-				</imageobject>
-				<textobject>
-					<phrase>Probar Wine en cliente</phrase>
-				</textobject>
-				<caption>
-					<para>Probar Wine en cliente</para>
-				</caption>
-			</mediaobject>
-			</figure>
 		
 		
 </sect7>
 
 <sect8>
 		<title>7. Restricciones de uso</title>
-		<para>Vamos a modificar los usuarios del servidor SSH para añadir algunas restricciones de uso del servicio.</para>
-		<section>
-			
-			
-		</section>
+		<para>bla bla bla</para>
+		
 </sect8>
 
 
 </chapter>
+
+</book>
