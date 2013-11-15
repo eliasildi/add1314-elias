@@ -484,7 +484,25 @@
 		
 		<section>
 			<title>7.2 Restricción total (tipo 2)</title>
-			<para></para>
+			<para>Crearemos un script que "bloquee" a los usuarios, pero lo lanzaremos manualmente, cuando se lanza la orden
+			de bloquear se modificara el archivo "sshd_config.system" quitando los usuarios que no queremos, y cuando se lanza
+			la orden de permitir se añadiran los usuarios al fichero. (o sustituiremos el fichero completo teniendo dos para cada caso.</para>
+			
+				<figure id="020">
+			<title>Restricción</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/SCRIP2.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+				<textobject>
+					<phrase>Restricción</phrase>
+				</textobject>
+				<caption>
+					<para>Restricción</para>
+				</caption>
+			</mediaobject>
+			</figure>
+			
 			
 		</section>
 		
