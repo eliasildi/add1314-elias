@@ -17,16 +17,10 @@
 <sect1>
 
 		<title>0. Introducción.</title>
-		<para>Para realizar esta práctica vamos a realizar dos esquemas, el primero con tendra un servidor SSH instalado
-		en XUbuntu con dos clientes (Windows 7 y OpenSuse) y el segundo esquema tendrá un servidor SSH bajo Windows Server
-		2008 con dos clientes también (Windows 7 y OpenSuse):
+		<para>Para realizar esta práctica vamos a realizar dos esquemas iguales, servidor SSH en XUbuntu
+		con dos clientes (Windows 7 y OpenSuse):
 		<itemizedlist>
 			<listitem>S1. Servidor SSH XUbuntu.</listitem>
-			<listitem>C1. OpenSuse.</listitem>
-			<listitem>C2. Windows 7.</listitem>
-		</itemizedlist>
-		<itemizedlist>
-			<listitem>S1. Servidor SSH wIndows Server 2008.</listitem>
 			<listitem>C1. OpenSuse.</listitem>
 			<listitem>C2. Windows 7.</listitem>
 		</itemizedlist>
@@ -37,7 +31,7 @@
 		<title>1. Preparativos.</title>
 		
 		<section>
-			<title>Configuracion del Servidor SSH XUbuntu.</title>
+			<title>Configuracion del Servidor SSH XUbuntu</title>
 			
 			
 			<section>
@@ -78,34 +72,31 @@
 		</section>
 		
 		<section>
-			<title>Instalación  y configuracion del Servidor SSH Windows.</title>
-			<para>bla bla bla</para>
-			<section>
-				<title>Instalación.</title>
-				<para>bla bla bla</para>
-			</section>
-			
-			<section>
-				<title>IP, HOST, Nombres de equipo, usuarios.</title>
-				<para>bla bla bla</para>
-			</section>
-		</section>
-		
-		<section>
 			<title>Clientes.</title>
-			<para>Los clientes son iguales en ambos esquemas, tan solo cambian las Ips</para>
+			<para>Client1 será OpenSuse y el Client2 Windows 7</para>
 			<section>
-				<title>Opensuse.</title>
-				<para>bla bla bla</para>
-				
+				<title>Opensuse.</title>		
 				<section>
 					<title>Instalación.</title>
-					<para>bla bla bla</para>
+					<para>Utilizamos una OVA en la que ya está instalado.</para>
 				</section>
 			
+			
+	#*************************************** revisar capturas **************************************
 				<section>
 					<title>IP, HOST, Nombres de equipo, usuarios.</title>
-					<para>bla bla bla</para>
+					<para>
+
+					<figure id="004">
+			<title>Config. de Opensuse </title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+	
+					</para>
 				</section>
 				
 				
@@ -151,12 +142,8 @@
 				</imageobject>
 			</mediaobject>
 			</figure>
-					
 					</para>
-				</section>
-				
-				
-				
+				</section>			
 			</section>
 		</section>
 </sect2>
@@ -239,7 +226,7 @@
 
 
 <sect4>
-		<title>3. Personalización del prompt Bash. ELIAS ESTA EN PROCESO</title>
+		<title>3. Personalización del prompt Bash.</title>
 		<para>En cada usuario hay que modificar el fichero .bashrc y agregar unas lineas al final:</para>
 			<figure id="013">
 			<title>Fichero .bashrc.</title>
@@ -262,15 +249,64 @@
 			<para>Nos ha dado un fallo, lo revisaremos mas adelante.</para>
 </sect4>
 
+# REVISAR CAPTURAS DEL SECTION 5  ************************************************
+
 <sect5>
 		<title>4. Autenticación mediante claves públicas</title>
-		<para>JOEL LA HIZO</para>
+		<para>Proceso: JOEL LA HIZO
+		
+		<figure id="555">
+			<title>Autenticación</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			<figure id="666">
+			<title>Autenticación</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+		
+		
+		</para>
 		
 </sect5>
 
+# REVISAR CAPTURAS DEL SECTION 6  ************************************************
+
 <sect6>
 		<title>5. Uso de SSH como túnel para X</title>
-		<para>JOEL LA HIZO</para>
+		<para>Proceso: JOEL LA HIZO
+				<figure id="555">
+			<title>Autenticación</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			<figure id="666">
+			<title>Autenticación</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+		
+		
+		
+		
+		
+		
+		</para>
 		
 </sect6>
 
@@ -307,8 +343,6 @@
 			</mediaobject>
 			</figure>
 			
-			
-			
 			<para>Comprobar el funcionamiento de APP2 desde Cliente..</para>
 			<figure id="017">
 			<title>Probar Wine en cliente</title>
@@ -341,6 +375,8 @@
 		
 		
 </sect7>
+
+# REVISAR CAPTURAS DEL SECTION 8  7.3 y 7.4************************************************
 
 <sect8>
 		<title>7. Restricciones de uso</title>
@@ -393,7 +429,7 @@
 		</section>
 		
 		<section>
-			<title>7.4 Restricción sobre aplicaciones (tipo 4)</title>
+			<title>7.4 Restricción sobre aplicaciones (tipo 4) EN CLASE</title>
 			<para></para>
 				
 		
