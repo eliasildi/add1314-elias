@@ -44,51 +44,33 @@
 				<title>IP, HOST, Nombres de equipo, usuarios.</title>
 				<para>
 				<figure id="001">
-		<title>Usuarios.</title>
-			<mediaobject>
+				<title>Usuarios.</title>
+				<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/01.s.usuarios.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Usuarios.</phrase>
-				</textobject>
-				<caption>
-					<para>Usuarios.</para>
-				</caption>
-			</mediaobject>
-</figure>
+				</mediaobject>
+				</figure>
 
 
-<figure id="002">
-		<title>IPs Servidor.</title>
-			<mediaobject>
+				<figure id="002">
+				<title>IPs Servidor.</title>
+				<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/01sIPstatic.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Ips Servidor.</phrase>
-				</textobject>
-				<caption>
-					<para>Ips Servidor.</para>
-				</caption>
-			</mediaobject>
-</figure>
+				</mediaobject>
+				</figure>
 
 
-<figure id="003">
-		<title>Nombre equipo.</title>
-			<mediaobject>
+				<figure id="003">
+				<title>Nombre equipo.</title>
+				<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/01s.etc-hosts.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Nombre equipo.</phrase>
-				</textobject>
-				<caption>
-					<para>Nombre equipo.</para>
-				</caption>
-			</mediaobject>
-</figure>
+				</mediaobject>
+				</figure>
 				
 				
 				</para>
@@ -136,20 +118,14 @@
 				<section>
 					<title>Instalación.</title>
 					<para>Instalaremos el PuTTY
-<figure id="004">
-		<title>Putty instalado</title>
+			<figure id="004">
+			<title>Putty instalado</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/c1putty.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Putty instalado.</phrase>
-				</textobject>
-				<caption>
-					<para>Putty instalado.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 					
 					</para>
 				</section>
@@ -158,35 +134,23 @@
 					<title>IP, HOST.</title>
 					<para>
 					
-<figure id="005">
-		<title>IP Win7</title>
+			<figure id="005">
+			<title>IP Win7</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/c1IP.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>IP Win7.</phrase>
-				</textobject>
-				<caption>
-					<para>IP Win7.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 
-<figure id="006">
-		<title>Archivo Hosts</title>
+			<figure id="006">
+			<title>Archivo Hosts</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/c1hosts.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Archivo Hosts.</phrase>
-				</textobject>
-				<caption>
-					<para>Archivo Hosts.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 					
 					</para>
 				</section>
@@ -202,115 +166,74 @@
 		<title>2. Instalación Básica.</title>
 		
 		<para>Instalamos el openssh-server:
-<figure id="007">
-		<title>Instalar SSH.</title>
+			<figure id="007">
+			<title>Instalar SSH.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/01sopenssh-server.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Instalar SSH.</phrase>
-				</textobject>
-				<caption>
-					<para>Instalar SSH.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 		</para>
 			<title>Comprobaciones y generación de claves.</title>
 			<para>Iniciamos el servicio ssh:</para>
-<figure id="008">
-		<title>Iniciar ssh.</title>
+			<figure id="008">
+			<title>Iniciar ssh.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/2sverificar.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Iniciar ssh.</phrase>
-				</textobject>
-				<caption>
-					<para>Iniciar ssh.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 			<para>Nos conectamos desde Windows con PuTTy:</para>
-<figure id="009">
-		<title>Primera coexion ssh.</title>
+			<figure id="009">
+			<title>Primera coexion ssh.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/CAPTURA-JOEL.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Primera coexion ssh.</phrase>
-				</textobject>
-				<caption>
-					<para>Primera coexion ssh.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 			
-<figure id="010">
-		<title>Conectado con Putty.</title>
+			<figure id="010">
+			<title>Conectado con Putty.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/2c1remoteuser1.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Conectado con Putty.</phrase>
-				</textobject>
-				<caption>
-					<para>Conectado con Putty.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 		<para>En Windows no encontramos el fichero known_hosts. Crearemos nuevas claves en el servidor con el comando ssh-keygen:</para>
 
-<figure id="011">
-		<title>Generar Nuevas Claves.</title>
+			<figure id="011">
+			<title>Generar Nuevas Claves.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/2sssh-keygen.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Generar Nuevas Claves.</phrase>
-				</textobject>
-				<caption>
-					<para>Generar Nuevas Claves.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
+			
 			<para>Reiniciamos el servicio:</para>
-<figure id="012">
-		<title>Reiniciar SSH.</title>
+			<figure id="012">
+			<title>Reiniciar SSH.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/2sreiniciarservicio.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Reiniciar SSH.</phrase>
-				</textobject>
-				<caption>
-					<para>Reiniciar SSH.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 	
 
 			<para>Volvemos a conectarnos desde los clientes, usando el usuario remoteuser2 y remoteuser1. ¿Qué sucede?:</para>
-<figure id="012">
-		<title>Reconectar con SSH.</title>
+			<figure id="012">
+			<title>Reconectar con SSH.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/CAPTURAJOELRECONECTAR.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Reconectar con SSH.</phrase>
-				</textobject>
-				<caption>
-					<para>Reconectar con SSH.</para>
-				</caption>
 			</mediaobject>
-</figure>	
+			</figure>	
 		
 </sect3>
 
@@ -318,43 +241,26 @@
 <sect4>
 		<title>3. Personalización del prompt Bash. ELIAS ESTA EN PROCESO</title>
 		<para>En cada usuario hay que modificar el fichero .bashrc y agregar unas lineas al final:</para>
-<figure id="013">
-		<title>Fichero .bashrc.</title>
+			<figure id="013">
+			<title>Fichero .bashrc.</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/3bashhrc.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Fichero .bashrc.</phrase>
-				</textobject>
-				<caption>
-					<para>Fichero .bashrc.</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 
-<para>Probamos:</para>
-<figure id="013">
-		<title>Ejecutar ssh y ver color del bash</title>
+			<para>Probamos:</para>
+			<figure id="013">
+			<title>Ejecutar ssh y ver color del bash</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/3bashhrc2.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Ejecutar ssh y ver color del bash</phrase>
-				</textobject>
-				<caption>
-					<para>Ejecutar ssh y ver color del bash</para>
-				</caption>
 			</mediaobject>
-</figure>
-<para>Nos ha dado un fallo, lo revisaremos mas adelante.</para>
-
-
-
-
+			</figure>
+			<para>Nos ha dado un fallo, lo revisaremos mas adelante.</para>
 </sect4>
-
 
 <sect5>
 		<title>4. Autenticación mediante claves públicas</title>
@@ -364,7 +270,7 @@
 
 <sect6>
 		<title>5. Uso de SSH como túnel para X</title>
-		<para>FOTOCOPIAS</para>
+		<para>JOEL LA HIZO</para>
 		
 </sect6>
 
@@ -377,14 +283,8 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/6swine.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Wine</phrase>
-				</textobject>
-				<caption>
-					<para>Wine</para>
-				</caption>
 			</mediaobject>
-</figure>
+			</figure>
 		<para>Instalar aplicación (APP2) de Windows en el servidor SSH usando el emulador Wine. Elegimos el
 		CCleaner porque seguramente al instalar el Wine nos creará una "instalación virtual de windows" con
 		sus registros y archivos temporales que podremos limpiar con el Ccleaner.</para>
@@ -394,12 +294,6 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/6swineapp.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>App con Wine</phrase>
-				</textobject>
-				<caption>
-					<para>App con Wine</para>
-				</caption>
 			</mediaobject>
 			</figure>
 		
@@ -410,12 +304,6 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/6swineappprobarenserver.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Probar Wine en server</phrase>
-				</textobject>
-				<caption>
-					<para>Probar Wine en server</para>
-				</caption>
 			</mediaobject>
 			</figure>
 			
@@ -428,12 +316,6 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/CCLEANER.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Lanzar el ccleaner</phrase>
-				</textobject>
-				<caption>
-					<para>Lanzar el ccleaner</para>
-				</caption>
 			</mediaobject>
 			</figure>
 			
@@ -443,12 +325,6 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/CCLEANER2.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Ccleaner ssh wine</phrase>
-				</textobject>
-				<caption>
-					<para>Ccleaner ssh wine</para>
-				</caption>
 			</mediaobject>
 			</figure>
 			
@@ -458,12 +334,6 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/ccleaner3rm-rfxanxanxannnn.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Duda: rm -fr desde cliente en el servidor?</phrase>
-				</textobject>
-				<caption>
-					<para>Duda: rm -fr desde cliente en el servidor?</para>
-				</caption>
 			</mediaobject>
 			</figure>
 		
@@ -485,12 +355,6 @@
 				<imageobject>
 					<imagedata fileref="img/t1a3/0.png" format="PNG" align="center" scale="70" />
 				</imageobject>
-				<textobject>
-					<phrase>Conectando</phrase>
-				</textobject>
-				<caption>
-					<para>Conectando</para>
-				</caption>
 			</mediaobject>
 			</figure>
 			
@@ -500,7 +364,15 @@
 		<section>
 			<title>7.2 Restricción total (tipo 2)</title>
 			<para>Modificamos el archivo "/etc/ssh/sshd_config" añadiendo la denegación, para ello añadiremos
-			una línea al final "AllowUsers remoteuser1 remoteuser2" esos serían los permitidos.</para>			
+			una línea al final "AllowUsers remoteuser1 remoteuser2" esos serían los permitidos.</para>
+			<figure id="020">
+			<title>Restricción 2</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/7.2-fichero.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>		
 		</section>
 		
 		<section>
@@ -509,8 +381,8 @@
 			de bloquear se modificara el archivo "sshd_config.system" quitando los usuarios que no queremos, y cuando se lanza
 			la orden de permitir se añadiran los usuarios al fichero. (o sustituiremos el fichero completo teniendo dos para cada caso.</para>
 			
-			<figure id="020">
-			<title>Restricción</title>
+			<figure id="021">
+			<title>Restricción 3</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/JOEEEL-SCRIP2.png" format="PNG" align="center" scale="70" />
