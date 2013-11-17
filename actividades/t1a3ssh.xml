@@ -499,7 +499,8 @@
 		
 		<section>
 			<title>7.2 Restricción total (tipo 2)</title>
-			<para>Modificamos el archivo "/etc/ssh/sshd_config" añadiendo la denegación:</para>			
+			<para>Modificamos el archivo "/etc/ssh/sshd_config" añadiendo la denegación, para ello añadiremos
+			una línea al final "AllowUsers remoteuser1 remoteuser2" esos serían los permitidos.</para>			
 		</section>
 		
 		<section>
