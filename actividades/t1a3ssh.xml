@@ -84,8 +84,6 @@
 					<para>Utilizamos una OVA en la que ya está instalado.</para>
 				</section>
 			
-			
-	#*************************************** revisar capturas **************************************
 				<section>
 					<title>IP, HOST, Nombres de equipo, usuarios.</title>
 					<para>
@@ -198,7 +196,7 @@
 			<title>Primera coexion ssh.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/CAPTURA-JOEL.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/puty04.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>
@@ -238,7 +236,7 @@
 			<title>Reconectar con SSH.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/CAPTURAJOELRECONECTAR.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/c1putty.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>	
@@ -270,17 +268,15 @@
 			<para>Nos ha dado un fallo, lo revisaremos mas adelante.</para>
 </sect4>
 
-# REVISAR CAPTURAS DEL SECTION 5  ************************************************
-
 <sect5>
 		<title>4. Autenticación mediante claves públicas</title>
-		<para>Proceso: JOEL LA HIZO
+		<para>Proceso:
 		
 		<figure id="555">
 			<title>Autenticación</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/08.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>
@@ -289,7 +285,7 @@
 			<title>Autenticación</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/07.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>
@@ -303,30 +299,16 @@
 
 <sect6>
 		<title>5. Uso de SSH como túnel para X</title>
-		<para>Proceso: JOEL LA HIZO
+		<para>Proceso:
 				<figure id="555">
 			<title>Autenticación</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/09.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>
-			
-			<figure id="666">
-			<title>Autenticación</title>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
-				</imageobject>
-			</mediaobject>
-			</figure>
-		
-		
-		
-		
-		
-		
+		"ssh -X remoteuser1@ssh-server; geany" no ha ido.
 		</para>
 		
 </sect6>
