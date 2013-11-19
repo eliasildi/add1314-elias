@@ -1,4 +1,5 @@
 <chapter>
+	
 	<title>A3 SSH</title>
 	<para>Esta práctica constará de los siguientes apartados:
 		<itemizedlist>
@@ -37,7 +38,7 @@
 			<section>
 				<title>IP, HOST, Nombres de equipo, usuarios.</title>
 				<para>
-				<figure id="001">
+				<figure>
 				<title>Usuarios.</title>
 				<mediaobject>
 				<imageobject>
@@ -47,7 +48,7 @@
 				</figure>
 
 
-				<figure id="002">
+				<figure>
 				<title>IPs Servidor.</title>
 				<mediaobject>
 				<imageobject>
@@ -57,7 +58,7 @@
 				</figure>
 
 
-				<figure id="003">
+				<figure>
 				<title>Nombre equipo.</title>
 				<mediaobject>
 				<imageobject>
@@ -85,7 +86,7 @@
 					<title>IP, HOST, Nombres de equipo, usuarios.</title>
 					<para>
 
-			<figure id="004">
+			<figure>
 			<title>IP OpenSuse</title>
 			<mediaobject>
 				<imageobject>
@@ -94,7 +95,7 @@
 			</mediaobject>
 			</figure>
 			
-			<figure id="044">
+			<figure>
 			<title>Host, dominio</title>
 			<mediaobject>
 				<imageobject>
@@ -103,7 +104,7 @@
 			</mediaobject>
 			</figure>
 			
-			<figure id="055">
+			<figure>
 			<title>Dns</title>
 			<mediaobject>
 				<imageobject>
@@ -125,7 +126,7 @@
 				<section>
 					<title>Instalación.</title>
 					<para>Instalaremos el PuTTY
-			<figure id="004">
+			<figure>
 			<title>Putty instalado</title>
 			<mediaobject>
 				<imageobject>
@@ -141,7 +142,7 @@
 					<title>IP, HOST.</title>
 					<para>
 					
-			<figure id="005">
+			<figure>
 			<title>IP Win7</title>
 			<mediaobject>
 				<imageobject>
@@ -150,7 +151,7 @@
 			</mediaobject>
 			</figure>
 
-			<figure id="006">
+			<figure>
 			<title>Archivo Hosts</title>
 			<mediaobject>
 				<imageobject>
@@ -165,10 +166,9 @@
 </section>
 
 <section>
-		<title>2. Instalación Básica.</title>
-		
+		<title>2. Instalación Básica</title>
 		<para>Instalamos el openssh-server:
-			<figure id="007">
+			<figure>
 			<title>Instalar SSH.</title>
 			<mediaobject>
 				<imageobject>
@@ -179,7 +179,7 @@
 		</para>
 			<title>Comprobaciones y generación de claves.</title>
 			<para>Iniciamos el servicio ssh:</para>
-			<figure id="008">
+			<figure>
 			<title>Iniciar ssh.</title>
 			<mediaobject>
 				<imageobject>
@@ -188,7 +188,7 @@
 			</mediaobject>
 			</figure>
 			<para>Nos conectamos desde Windows con PuTTy:</para>
-			<figure id="009">
+			<figure>
 			<title>Primera coexion ssh.</title>
 			<mediaobject>
 				<imageobject>
@@ -197,7 +197,7 @@
 			</mediaobject>
 			</figure>
 			
-			<figure id="010">
+			<figure>
 			<title>Conectado con Putty.</title>
 			<mediaobject>
 				<imageobject>
@@ -207,7 +207,7 @@
 			</figure>
 		<para>En Windows no encontramos el fichero known_hosts. Crearemos nuevas claves en el servidor con el comando ssh-keygen:</para>
 
-			<figure id="011">
+			<figure>
 			<title>Generar Nuevas Claves.</title>
 			<mediaobject>
 				<imageobject>
@@ -217,7 +217,7 @@
 			</figure>
 			
 			<para>Reiniciamos el servicio:</para>
-			<figure id="012">
+			<figure>
 			<title>Reiniciar SSH.</title>
 			<mediaobject>
 				<imageobject>
@@ -228,7 +228,7 @@
 	
 
 			<para>Volvemos a conectarnos desde los clientes, usando el usuario remoteuser2 y remoteuser1. ¿Qué sucede?:</para>
-			<figure id="012">
+			<figure>
 			<title>Reconectar con SSH.</title>
 			<mediaobject>
 				<imageobject>
@@ -242,7 +242,7 @@
 <section>
 		<title>3. Personalización del prompt Bash.</title>
 		<para>En cada usuario hay que modificar el fichero .bashrc y agregar unas lineas al final:</para>
-			<figure id="013">
+			<figure>
 			<title>Fichero .bashrc.</title>
 			<mediaobject>
 				<imageobject>
@@ -252,7 +252,7 @@
 			</figure>
 
 			<para>Probamos:</para>
-			<figure id="013">
+			<figure>
 			<title>Ejecutar ssh y ver color del bash</title>
 			<mediaobject>
 				<imageobject>
@@ -267,7 +267,7 @@
 		<title>4. Autenticación mediante claves públicas</title>
 		<para>Proceso:
 		
-		<figure id="555">
+		<figure>
 			<title>Autenticación</title>
 			<mediaobject>
 				<imageobject>
@@ -276,7 +276,7 @@
 			</mediaobject>
 			</figure>
 			
-			<figure id="666">
+			<figure>
 			<title>Autenticación</title>
 			<mediaobject>
 				<imageobject>
@@ -293,7 +293,7 @@
 <section>
 		<title>5. Uso de SSH como túnel para X</title>
 		<para>Proceso:
-				<figure id="555">
+				<figure>
 			<title>Autenticación</title>
 			<mediaobject>
 				<imageobject>
@@ -309,7 +309,7 @@
 <section>
 		<title>6. Aplicaciones Windows nativas</title>
 		<para>Instalamos Wine</para>
-		<figure id="014">
+		<figure>
 		<title>Wine</title>
 			<mediaobject>
 				<imageobject>
@@ -320,7 +320,7 @@
 		<para>Instalar aplicación (APP2) de Windows en el servidor SSH usando el emulador Wine. Elegimos el
 		CCleaner porque seguramente al instalar el Wine nos creará una "instalación virtual de windows" con
 		sus registros y archivos temporales que podremos limpiar con el Ccleaner.</para>
-			<figure id="015">
+			<figure>
 			<title>App con Wine</title>
 			<mediaobject>
 				<imageobject>
@@ -330,7 +330,7 @@
 			</figure>
 		
 		<para>Comprobar el funcionamiento de APP2 en ssh-server..</para>
-			<figure id="016">
+			<figure>
 			<title>Probar Wine en server</title>
 			<mediaobject>
 				<imageobject>
@@ -340,7 +340,7 @@
 			</figure>
 			
 			<para>Comprobar el funcionamiento de APP2 desde Cliente..</para>
-			<figure id="017">
+			<figure>
 			<title>Probar Wine en cliente</title>
 			<mediaobject>
 				<imageobject>
@@ -349,7 +349,7 @@
 			</mediaobject>
 			</figure>
 			
-			<figure id="018">
+			<figure>
 			<title>Ccleaner ssh wine</title>
 			<mediaobject>
 				<imageobject>
@@ -358,7 +358,7 @@
 			</mediaobject>
 			</figure>
 			
-			<figure id="018">
+			<figure>
 			<title>Duda: rm -fr desde cliente en el servidor?</title>
 			<mediaobject>
 				<imageobject>
@@ -374,14 +374,15 @@
 
 <section>
 	
+		<section>
 		<title>7. Restricciones de uso</title>
 		<para>Vamos a modificar los usuarios del servidor SSH para añadir algunas restricciones de uso del servicio.</para>
 		
-		<section>
+		<sect4>
 			<title>7.1 Sin restricción (tipo 1)</title>
 			<para>Usuario sin restricciones, el usuario remoteuser1, podrá conectarse vía SSH sin restricciones.</para>
-			<figure id="019">
-			<title>Conectando</title>
+			<figure>
+			<title>Restricción 7.2</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/0.png" format="PNG" align="center" scale="70" />
@@ -390,30 +391,30 @@
 			</figure>
 			
 			
-		</section>
+		</sect4>
 		
-		<section>
+		<sect4>
 			<title>7.2 Restricción total (tipo 2)</title>
 			<para>Modificamos el archivo "/etc/ssh/sshd_config" añadiendo la denegación, para ello añadiremos
 			una línea al final "AllowUsers remoteuser1 remoteuser2" esos serían los permitidos.</para>
-			<figure id="020">
-			<title>Restricción 2</title>
+			<figure>
+			<title>Restricción 7.2</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/7.2-fichero.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>		
-		</section>
+		</sect4>
 		
-		<section>
+		<sect4>
 			<title>7.3 Restricción temporal (tipo 3)</title>
 			<para>Crearemos un script que "bloquee" a los usuarios, irá en "/usr/local/bin/" pero lo lanzaremos manualmente, cuando se lanza la orden
 			de bloquear se modificara el archivo "sshd_config.system" quitando los usuarios que no queremos, y cuando se lanza
 			la orden de permitir se añadiran los usuarios al fichero. (o sustituiremos el fichero completo teniendo dos para cada caso.</para>
 			
-			<figure id="021">
-			<title>Restricción 3</title>
+			<figure>
+			<title>Restricción 7.3</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/SCRIP1.png" format="PNG" align="center" scale="70" />
@@ -421,8 +422,8 @@
 			</mediaobject>
 			</figure>
 			
-				<figure id="022">
-			<title>Restricción 3</title>
+				<figure>
+			<title>Restricción 7.3</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/SCRIP2.png" format="PNG" align="center" scale="70" />
@@ -431,8 +432,8 @@
 			</figure>
 			
 			
-				<figure id="023">
-			<title>Restricción 3</title>
+				<figure>
+			<title>Restricción 7.3</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/SCRIP3.png" format="PNG" align="center" scale="70" />
@@ -441,8 +442,8 @@
 			</figure>
 			
 			
-				<figure id="023">
-			<title>Restricción 3</title>
+				<figure>
+			<title>Restricción 7.3</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/SCRIP4.png" format="PNG" align="center" scale="70" />
@@ -451,14 +452,14 @@
 			</figure>
 			
 			
-		</section>
+		</sect4>
 		
-		<section>
+		<sect4>
 			<title>7.4 Restricción sobre aplicaciones (tipo 4)</title>
 			<para>Vamos a crear una restricción de permisos sobre determinadas aplicaciones.
 			Crear grupo remoteapps (hemos copiado el programa "cat" y le dimos nombre "cat2":
-			<figure id="024">
-			<title>Restricción 4</title>
+			<figure>
+			<title>Restricción 7.4</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/74grupo.png" format="PNG" align="center" scale="70" />
@@ -469,8 +470,8 @@
 			
 			Poner al programa APP1 el grupo propietario a remoteapps:
 			
-			<figure id="025">
-			<title>Restricción 4</title>
+			<figure>
+			<title>Restricción 7.4</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/74grupoapp.png" format="PNG" align="center" scale="70" />
@@ -482,8 +483,8 @@
 			Poner los permisos del ejecutable de APP1 a 750. Para impedir que los que no
 			pertenezcan al grupo puedan ejecutar el programa.
 			
-			<figure id="026">
-			<title>Restricción 4</title>
+			<figure>
+			<title>Restricción 7.4</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/74grupopermisos.png" format="PNG" align="center" scale="70" />
@@ -494,8 +495,8 @@
 			
 			Comprobamos desde servidor con elias y con remoteuser4:
 			
-			<figure id="027">
-			<title>Restricción 4</title>
+			<figure>
+			<title>Restricción 7.4</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/74serv.png" format="PNG" align="center" scale="70" />
@@ -504,8 +505,8 @@
 			</figure>			
 			
 			Comprobamos desde un cliente:
-			<figure id="028">
-			<title>Restricción 4</title>
+			<figure>
+			<title>Restricción 7.4</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/74clientremot4.png" format="PNG" align="center" scale="70" />
@@ -513,8 +514,8 @@
 			</mediaobject>
 			</figure>		
 			
-						<figure id="028">
-			<title>Restricción 4</title>
+			<figure>
+			<title>Restricción 7.4</title>
 			<mediaobject>
 				<imageobject>
 					<imagedata fileref="img/t1a3/74clientdiferencia.png" format="PNG" align="center" scale="70" />
@@ -523,13 +524,9 @@
 			</figure>	
 		
 			</para>
-				
+			</sect4>
 		
-		
+		</section>
 </section>
-
-
-
-
 
 </chapter>
