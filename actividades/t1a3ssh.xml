@@ -90,11 +90,29 @@
 					<title>IP, HOST, Nombres de equipo, usuarios.</title>
 					<para>
 
-					<figure id="004">
-			<title>Config. de Opensuse </title>
+			<figure id="004">
+			<title>IP OpenSuse</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/JOEL.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/01.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			<figure id="044">
+			<title>Host, dominio</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/02.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			<figure id="055">
+			<title>Dns</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/04.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>
