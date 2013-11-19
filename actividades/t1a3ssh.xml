@@ -295,8 +295,6 @@
 		
 </sect5>
 
-# REVISAR CAPTURAS DEL SECTION 6  ************************************************
-
 <sect6>
 		<title>5. Uso de SSH como túnel para X</title>
 		<para>Proceso:
@@ -379,8 +377,6 @@
 		
 </sect7>
 
-# REVISAR CAPTURAS DEL SECTION 8  7.3 y 7.4************************************************
-
 <sect8>
 		<title>7. Restricciones de uso</title>
 		<para>Vamos a modificar los usuarios del servidor SSH para añadir algunas restricciones de uso del servicio.</para>
@@ -424,7 +420,26 @@
 			<title>Restricción 3</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="img/t1a3/JOEEEL-SCRIP2.png" format="PNG" align="center" scale="70" />
+					<imagedata fileref="img/t1a3/SCRIP1.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+				<figure id="022">
+			<title>Restricción 3</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/SCRIP2.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			
+				<figure id="023">
+			<title>Restricción 3</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/SCRIP3.png" format="PNG" align="center" scale="70" />
 				</imageobject>
 			</mediaobject>
 			</figure>
@@ -432,8 +447,80 @@
 		</section>
 		
 		<section>
-			<title>7.4 Restricción sobre aplicaciones (tipo 4) EN CLASE</title>
-			<para></para>
+			<title>7.4 Restricción sobre aplicaciones (tipo 4)</title>
+			<para>Vamos a crear una restricción de permisos sobre determinadas aplicaciones.
+			Crear grupo remoteapps (hemos copiado el programa "cat" y le dimos nombre "cat2":
+			<figure id="024">
+			<title>Restricción 4</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/74grupo.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			
+			Poner al programa APP1 el grupo propietario a remoteapps:
+			
+			<figure id="025">
+			<title>Restricción 4</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/74grupoapp.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			
+			Poner los permisos del ejecutable de APP1 a 750. Para impedir que los que no
+			pertenezcan al grupo puedan ejecutar el programa.
+			
+			<figure id="026">
+			<title>Restricción 4</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/74grupopermisos.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
+			
+			Comprobamos desde servidor con elias y con remoteuser4:
+			
+			<figure id="027">
+			<title>Restricción 4</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/74serv.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>			
+			
+			Comprobamos desde un cliente:
+			<figure id="028">
+			<title>Restricción 4</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/74clientremot4.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>		
+			
+						<figure id="028">
+			<title>Restricción 4</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/74clientdiferencia.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>	
+			
+			
+			
+			
+			
+			
+			</para>
 				
 		
 		
