@@ -1,6 +1,3 @@
-# SOLO FALTA COLOCAR CAPTURAS DE JOEL
-
-# Y LA ULTIMA RESTRICCION Y REVISAR LO DEL PASO 3 DE LOS COLORES
 <chapter>
 	<title>A3 SSH</title>
 	<para>Esta práctica constará de los siguientes apartados:
@@ -17,7 +14,7 @@
         </itemizedlist>
 	</para>
 	
-<sect1>
+<section>
 
 		<title>0. Introducción.</title>
 		<para>Para realizar esta práctica vamos a realizar dos esquemas iguales, servidor SSH en XUbuntu
@@ -28,9 +25,9 @@
 			<listitem>C2. Windows 7.</listitem>
 		</itemizedlist>
 		</para>
-</sect1>
+</section>
 
-<sect2>
+<section>
 		<title>1. Preparativos.</title>
 		
 		<section>
@@ -165,10 +162,9 @@
 				</section>			
 			</section>
 		</section>
-</sect2>
+</section>
 
-
-<sect3>
+<section>
 		<title>2. Instalación Básica.</title>
 		
 		<para>Instalamos el openssh-server:
@@ -241,10 +237,9 @@
 			</mediaobject>
 			</figure>	
 		
-</sect3>
+</section>
 
-
-<sect4>
+<section>
 		<title>3. Personalización del prompt Bash.</title>
 		<para>En cada usuario hay que modificar el fichero .bashrc y agregar unas lineas al final:</para>
 			<figure id="013">
@@ -266,9 +261,9 @@
 			</mediaobject>
 			</figure>
 			<para>Nos ha dado un fallo, lo revisaremos mas adelante.</para>
-</sect4>
+</section>
 
-<sect5>
+<section>
 		<title>4. Autenticación mediante claves públicas</title>
 		<para>Proceso:
 		
@@ -293,9 +288,9 @@
 		
 		</para>
 		
-</sect5>
+</section>
 
-<sect6>
+<section>
 		<title>5. Uso de SSH como túnel para X</title>
 		<para>Proceso:
 				<figure id="555">
@@ -309,9 +304,9 @@
 		"ssh -X remoteuser1@ssh-server; geany" no ha ido.
 		</para>
 		
-</sect6>
+</section>
 
-<sect7>
+<section>
 		<title>6. Aplicaciones Windows nativas</title>
 		<para>Instalamos Wine</para>
 		<figure id="014">
@@ -375,9 +370,10 @@
 		
 		
 		
-</sect7>
+</section>
 
-<sect8>
+<section>
+	
 		<title>7. Restricciones de uso</title>
 		<para>Vamos a modificar los usuarios del servidor SSH para añadir algunas restricciones de uso del servicio.</para>
 		
@@ -443,6 +439,17 @@
 				</imageobject>
 			</mediaobject>
 			</figure>
+			
+			
+				<figure id="023">
+			<title>Restricción 3</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="img/t1a3/SCRIP4.png" format="PNG" align="center" scale="70" />
+				</imageobject>
+			</mediaobject>
+			</figure>
+			
 			
 		</section>
 		
@@ -514,17 +521,15 @@
 				</imageobject>
 			</mediaobject>
 			</figure>	
-			
-			
-			
-			
-			
-			
+		
 			</para>
 				
 		
 		
-</sect8>
+</section>
+
+
+
 
 
 </chapter>
