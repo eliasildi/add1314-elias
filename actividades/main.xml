@@ -11,8 +11,8 @@
 	</author>
 	<author>
 		<personname>
-			<firstname>Joel</firstname>
-			<surname>Chávez</surname>
+			<firstname></firstname>
+			<surname></surname>
 		</personname>
 	</author>
    
@@ -23,6 +23,7 @@
 </info>
 
 
+<xi:include href="t1a1accesoremoto.xml" />
+<xi:include href="t1a2clientesligeros.xml" />
 <xi:include href="t1a3ssh.xml" />
-
 </book>
